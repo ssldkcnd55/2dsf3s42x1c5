@@ -7,7 +7,8 @@
 <title>first</title>
 </head>
 <body>
-<h1>first~!!</h1>
-<a href="home.do">home.do</a>
+<!-- <h1>first~!!</h1>
+<a href="home.do">home.do</a> -->
+<jsp:forward page="home.do"/>
 </body>
 </html>

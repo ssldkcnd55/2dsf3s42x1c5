@@ -34,6 +34,10 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
+		//컨트롤로에서 리턴되는 뷰는 디스페처서블릿에 등록된
+		//뷰리졸버에 의해 지정된 폴더에서 찾아서 내보내지게 됨
+		//WEB-INF/views/폴더 아래에 뷰가 있어야함
+		//웰컴파일인 index.jsp는 컨트롤러를 통해서는 사용할 수 없음
 	}
 	
 }
