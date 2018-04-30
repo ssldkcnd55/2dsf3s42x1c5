@@ -9,11 +9,10 @@
 	<title>Home</title>
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
-
-<P>  The time on the server is ${serverTime}. </P>
-<a href="/first/index.jsp">시작페이지 이동</a>
+<c:import url="header.jsp"/><br><br>
+<hr>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+<c:import url="footer.jsp"/>
 </body>
 </html>
