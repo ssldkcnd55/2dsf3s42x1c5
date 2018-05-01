@@ -25,4 +25,5 @@
 	
 	
 	
+	<!-- <bean id="member" class="com.kh.first.member.model.vo.Member"></bean> -->
 </beans:beans>

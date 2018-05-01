@@ -36,9 +36,9 @@ text-decoration: none;
 			</ul>
 		</nav>
 		<table id="loginFrm">
-			<form>
+			<form action="login.do" method="post">
 			<tr>
-				<th></th>
+				<th><input type="text" name=""></th>
 				<th></th>
 			</tr>
 			<tr>
