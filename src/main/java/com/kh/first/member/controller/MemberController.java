@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler;
 
 import com.kh.first.member.model.service.MemberService;
 import com.kh.first.member.model.vo.Member;
@@ -26,7 +27,7 @@ public class MemberController {
 		System.out.println("전송와서 저장된 값 : "+member);
 		
 		Member returnMember = memberService.selectMember(member);
-		
+		System.out.println("return member  : "+returnMember);
 		mv.addObject("member",returnMember);
 		mv.setViewName("home");
 		return mv;
