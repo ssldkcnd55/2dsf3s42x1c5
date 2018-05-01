@@ -36,14 +36,14 @@ text-decoration: none;
 			</ul>
 		</nav>
 		<table id="loginFrm">
-			<form action="login.do" method="post">
+			<form action="test.do" method="post">
 			<tr>
-				<th><input type="text" name=""></th>
-				<th></th>
+				<th><input type="text" name="userid"></th>
+				<th rowspan="2"><input type="submit" value="로그인">
 			</tr>
 			<tr>
-				<th></th>
-				<th></th>
+				<th><input type="password" name="userpwd"></th>
+				<th colspan="2"><a>아이디/암호분실시</a>&nbsp; <a>회원가입</a></th>
 			</tr>
 			<tr>
 				<th></th>

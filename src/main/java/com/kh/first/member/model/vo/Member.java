@@ -21,6 +21,10 @@ public class Member implements java.io.Serializable{
 	private Date enroll_date;
 	private Date lastmodified;
 
+	public Member() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Member(String userid, String userpwd, String username, String gender, int age, String phone, String email,
 			String hobby, String etc, Date enroll_date, Date lastmodified) {
 		super();
